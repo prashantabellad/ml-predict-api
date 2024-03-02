@@ -1,0 +1,7 @@
+# Ignore virtual environment
+/api-venv
+
+.DS_Store
+
+# Ignore all __pycache__ directories
+__pycache__/
