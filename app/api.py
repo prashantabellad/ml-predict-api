@@ -5,7 +5,7 @@ parent, root = file.parent, file.parents[1]
 sys.path.append(str(root))
 
 from typing import List
-from fastapi import FastAPI, APIRouter
+from fastapi import APIRouter
 from pydantic import BaseModel
 from transformers import pipeline
 
